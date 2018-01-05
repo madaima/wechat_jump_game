@@ -39,3 +39,11 @@
 - 确保执行 `adb devices` 可以看到设备列表；
 - 打开微信跳一跳游戏，点击开始游戏；
 - 运行`php run.php`；
+
+## 效果
+
+- 描点
+![描点](http://ww1.sinaimg.cn/large/0060lm7Tly1fn5iqksyjij30u01hcgml.jpg)
+
+- 分数 
+![描点](http://ww3.sinaimg.cn/large/0060lm7Tly1fn5iqkse18j30u01hcgmf.jpg)
