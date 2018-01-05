@@ -16,7 +16,7 @@ function screenshot()
 {
 //    system('adb shell screencap -p /sdcard/screen.png');
 //    system('adb pull /screenshot/screen.png .');
-    //部分手机 使用上面命令没有权限 可以使用下面的命令 但是需要mingw 环境支持 ，windows 下可以使用git 自带的 git bash 使用。
+    //部分手机 使用上面命令没有权限 可以使用下面的命令 但是需要 mingw 环境支持 ，windows 下可以使用git 自带的 git bash 使用。
     system('adb shell screencap -p | sed \'s/\r$//\' > screenshot/screen.png');
 }
 
